@@ -63,7 +63,7 @@ class ModelWorker:
         logger.info(f"Loading the model {self.model_name} on worker {worker_id} ...")
         self.tokenizer, self.model, self.image_processor, self.context_len = load_pretrained_model(
             model_path, model_base, self.model_name, load_8bit, load_4bit)
-        self.is_multimodal = 'llava' in self.model_name.lower()
+        self.is_multimodal = 'hermes' in self.model_name.lower()
 
         if not no_register:
             self.register_to_controller()
