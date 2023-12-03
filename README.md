@@ -28,7 +28,7 @@ pip install flash-attn --no-build-isolation
 ### Upgrade to transformers 4.34.1
 
 ```Shell
-pip install transformers==3.34.1
+pip install transformers==4.34.1
 ```
 
 ### Quick Start With HuggingFace
