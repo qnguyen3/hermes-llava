@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# IMPORTANT: this is the training script for the original LLaVA, NOT FOR LLaVA V1.5!
-
 # Uncomment and set the following variables correspondingly to run this script:
 
 ################## VICUNA ##################

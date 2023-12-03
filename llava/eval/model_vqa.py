@@ -66,7 +66,7 @@ def eval_model(args):
             output_ids = model.generate(
                 input_ids,
                 images=image_tensor.unsqueeze(0).half().cuda(),
-                do_sample=True if args.temperature > 0 else False,
+                do_sample=True,
                 temperature=args.temperature,
                 top_p=args.top_p,
                 num_beams=args.num_beams,
