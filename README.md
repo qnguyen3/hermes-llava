@@ -1,6 +1,6 @@
 # 🌋 Nous-Hermes-2 Vision: Vision-Language Large Action Model
 
-![Nous-Hermes-2 Vision](https://files.oaiusercontent.com/file-kD7VSXsOVIWdrbK0B56bhfD6?se=2023-12-03T17%3A34%3A58Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D9d50309b-5b64-49d0-b826-ae1f86a29fa8.webp)
+![Nous-Hermes-2 Vision](https://files.oaiusercontent.com/file-kD7VSXsOVIWdrbK0B56bhfD6?se=2023-12-03T17%3A34%3A58Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D9d50309b-5b64-49d0-b826-ae1f86a29fa8.webp&sig=P9isiKFyeJTCZGBKRmEIK0CXnnUglc4pJX0q1%2BTxfj4%3D)
 ## Install
 
 If you are not using Linux, do *NOT* proceed, see instructions for [macOS](https://github.com/haotian-liu/LLaVA/blob/main/docs/macOS.md) and [Windows](https://github.com/haotian-liu/LLaVA/blob/main/docs/Windows.md).
