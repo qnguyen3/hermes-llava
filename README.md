@@ -55,7 +55,8 @@ Check out the details wth the `load_pretrained_model` function in `llava/model/b
 You can also use the `eval_model` function in `llava/eval/run_llava.py` to get the output easily. By doing so, you can use this code on Colab directly after downloading this repository.
 
 ``` python
-model_path = "liuhaotian/llava-v1.5-7b"
+model_path = "NousResearch/Nous-Hermes-2-Vision"
+
 prompt = "What are the things I should be cautious about when I visit here?"
 image_file = "https://llava-vl.github.io/static/images/view.jpg"
 
