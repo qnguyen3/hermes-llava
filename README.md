@@ -31,6 +31,24 @@ pip install flash-attn --no-build-isolation
 pip install transformers==4.34.1
 ```
 
+#### Note:
+If you see error below you may need to upgrade `accelerate` using
+`pip install -U accelerate`
+(see [here](https://github.com/huggingface/transformers/issues/23340))
+```
+from transformers import AutoConfig, AutoModelForCausalLM, \
+  File "<frozen importlib._bootstrap>", line 1075, in _handle_fromlist
+  File "/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1273, in __getattr__
+    value = getattr(module, name)
+  File "/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1272, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1284, in _get_module
+    raise RuntimeError(
+RuntimeError: Failed to import transformers.models.llama.modeling_llama because of the following error (look up to see its traceback):
+Failed to import transformers.generation.utils because of the following error (look up to see its traceback):
+[Errno 13] Permission denied: '/root/google_vm_config.lock'
+```
+
 ### Quick Start With HuggingFace
 
 <details>
